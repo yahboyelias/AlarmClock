@@ -1,0 +1,113 @@
+body {
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#clock {
+    height:120px;
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.801);
+}
+
+h2 {
+	text-align:center;
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+    color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:black;
+    width: 200px;
+    color: rgba(255, 0, 0, 0.801);
+    border: 2px solid rgba(255, 0, 0, 0.801);
+    height: 100px;
+    border-radius: 25px;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    margin-top:80px;
+}
+#clearButton {
+    float:right;
+    width: 200px;
+    color: rgba(255, 0, 0, 0.801);
+    height: 100px;
+    font-size: 35px;
+    border: 2px solid rgba(255, 0, 0, 0.801);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 25px;
+    background-color:black;
+    margin-top:80px;
+}
+
+#setButton:hover, 
+#clearButton:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.137);
+}
+
+#setButton:active, 
+#clearButton:active {
+    background-color: rgba(255, 0, 0, 0.13);
+}
+
+
+#alarmhrs, 
+#alarmmins, 
+#alarmsecs, 
+#ampm {
+    width: 80px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: rgba(255, 0, 0, 0.801);
+}
+
+#alarmhrs:hover, 
+#alarmmins:hover, 
+#alarmsecs:hover, 
+#ampm:hover {
+    cursor: pointer;
+}
+
+h3 {
+    color: rgba(255, 0, 0, 0.801);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+}
+
+
